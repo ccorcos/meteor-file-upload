@@ -1,5 +1,6 @@
 #Simple Meteor File Upload#
 
+This is just a simple meteor app for uploading files.
 
 ##Implementation##
 
