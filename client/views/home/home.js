@@ -30,3 +30,8 @@ Template.uploadsList.uploads = function() {
         }
     })
 }
+
+Template.media.destroyed = function() {
+    console.log(this)
+    Session.set(this.data.url, null)
+};

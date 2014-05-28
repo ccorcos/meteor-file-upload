@@ -68,9 +68,7 @@
 
         {{#if isMarkdown}}
             {{asyncFetch this.url}}
-            {{#markdown}}
-                {{sessionVar this.url}}
-            {{/markdown}}
+            {{#markdown}}{{sessionVar this.url}}{{/markdown}}
         {{else}}
 
         {{#if isText}}
