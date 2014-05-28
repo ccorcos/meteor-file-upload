@@ -1,6 +1,6 @@
 #Simple Meteor File Upload#
 
-This is just a simple meteor app for uploading files.
+This is just a simple meteor app for uploading files. Check out the [demo](http://file-upload.meteor.com).
 
 ##Implementation##
 
