@@ -1,11 +1,5 @@
-var base = "";
-
-if (Meteor.isServer) {
-    base = process.env.PWD;
-}
+var uploadStore = new FS.Store.GridFS("uploads");
 
 Uploads = new FS.Collection("uploads", {
-    stores: [new FS.Store.FileSystem("uploads", {
-        path: base + "/uploads"
-    })]
+    stores: [uploadStore]
 });
